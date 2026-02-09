@@ -1,0 +1,25 @@
+[theme]
+base = "dark"
+primaryColor = "#00ff41"
+backgroundColor = "#0a0a0a"
+secondaryBackgroundColor = "#111111"
+textColor = "#ffffff"
+font = "monospace"
+
+[server]
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
+```
+
+Then commit. After all that your repo should look like:
+```
+mintfluencer-character-creator/
+├── .streamlit/
+│   └── config.toml
+├── .gitignore
+├── README.md
+├── app.py
+└── requirements.txt
